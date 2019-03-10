@@ -1,8 +1,5 @@
 import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
 
-const NAV_BAR_HEIGHT : number = 80;
-const UNSET : string = "unset";
-
 @Component({
   selector: 'app-video',
   templateUrl: './video.component.html',
