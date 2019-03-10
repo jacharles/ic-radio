@@ -1,6 +1,7 @@
 import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
 
 const NAV_BAR_HEIGHT : number = 80;
+const UNSET : string = "unset";
 
 @Component({
   selector: 'app-video',
@@ -9,38 +10,33 @@ const NAV_BAR_HEIGHT : number = 80;
 })
 export class VideoComponent implements OnInit {
 
-  public element: ElementRef;
+  public snapped: boolean;
+  public windowHeight: number;
 
-  public height: number;
-  public width: number;
-
-  constructor(element: ElementRef) {
-    this.element = element;
+  constructor() {
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize(event) {
-    this.height = window.innerHeight-NAV_BAR_HEIGHT;
+  onresize(){
+    this.windowHeight = window.innerHeight;
   }
 
   @HostListener('window:scroll', ['$event'])
   onscroll(event){
-    if (window.scrollY > this.height + NAV_BAR_HEIGHT){
-      this.width = 50;
-      console.log("switching perspective to 50%");
+    if (window.scrollY > this.windowHeight){
+      this.snapped = true;
     }
     else {
-      this.width = 100;
-      console.log("switching perspective to 100%");
+      this.snapped = false;
     }
   }
 
   ngOnInit() {
-    this.height = window.innerHeight-NAV_BAR_HEIGHT;
-    this.width = 100;
+    this.windowHeight = window.innerHeight;
+    this.snapped = false;
   }
 
-  // TODO: figure out window sizing
-  // - entire video should show in the window regardless of aspect ratio
+  // TODO: use ngclass for dynamic bulk css property updates
+  // TODO: change dynamic adjustment to use viewport units
 
 }
