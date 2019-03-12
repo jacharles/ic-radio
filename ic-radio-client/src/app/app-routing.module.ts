@@ -6,9 +6,10 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'schedule', component: ScheduleComponent},
-  { path: 'about', component: AboutComponent},
+  { path: 'schedule', component: ScheduleComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({
