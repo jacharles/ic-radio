@@ -1,27 +1,25 @@
 # Invisible City Radio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+Basic website for Invisible City which will be deploying in the summer of 2019.
 
-## Development server
+## Client
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Uses Angular 7 to persist the livestream regardless of where the user navigates to on the site.
 
-## Code scaffolding
+## Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Will use spring boot to retrieve the latest live video from Livestream's servers and send it back to the client for dynamic video loading.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## In progress
+- About component
+  - basic information
+  - location
+  - mailing list
+  - social media links
+  - contact information
+- Schedule
+  - need to find a service which can be updated to hold schedule information
+  
+## Possible future features
+- show archive
+- instagram / twitter feed
