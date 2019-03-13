@@ -24,6 +24,5 @@ EXPOSE 4200
 # run the app in the container
 CMD [ "ng", "serve", "--host", "0.0.0.0" ]
 
-
-
+###### need to install python before installing angular
 
