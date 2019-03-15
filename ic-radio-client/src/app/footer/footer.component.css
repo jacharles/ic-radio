@@ -1,0 +1,13 @@
+.footer-main{
+    font-family: 'Work Sans', sans-serif;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    font-size: 12px;
+}

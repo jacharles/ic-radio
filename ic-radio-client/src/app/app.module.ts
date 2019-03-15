@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { AboutComponent } from './about/about.component';
 import { VideoComponent } from './video/video.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { VideoComponent } from './video/video.component';
     HomeComponent,
     AboutComponent,
     ScheduleComponent,
-    VideoComponent
+    VideoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
