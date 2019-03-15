@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  ic-radio-client:
+    image: ic-radio-client
+    build:
+      context: ./ic-radio-client
+      dockerfile: ./ic-radio-client/Dockerfile
+    volumes:
+      - './ic-radio-client:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - 4200:4200
