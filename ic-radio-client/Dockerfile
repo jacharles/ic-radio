@@ -1,5 +1,5 @@
 # base image
-FROM alpine:3.7
+FROM node:10.15.2-alpine
 
 # set working directory
 RUN mkdir -p /usr/src/app
@@ -7,9 +7,6 @@ WORKDIR /usr/src/app
 
 # add node modules to $PATH
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
-
-# install npm and node
-RUN apk add --update nodejs nodejs-npm
 
 # copy project to build directory and build
 COPY package.json .
@@ -23,6 +20,3 @@ EXPOSE 4200
 
 # run the app in the container
 CMD [ "ng", "serve", "--host", "0.0.0.0" ]
-
-###### need to install python before installing angular
-
