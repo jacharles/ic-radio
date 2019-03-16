@@ -1,5 +1,5 @@
 # base image
-FROM alpine:3.7
+FROM node:10.15.2-alpine
 
 # set working directory
 RUN mkdir -p /usr/src/app
@@ -9,7 +9,7 @@ WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # install npm and node
-RUN apk add --update nodejs nodejs-npm
+#RUN apk add --update nodejs nodejs-npm
 
 # copy project to build directory and build
 COPY package.json .
