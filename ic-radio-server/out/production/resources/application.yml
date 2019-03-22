@@ -1,0 +1,18 @@
+application:
+  name: ic-radio-server
+  version: 0.0.1
+
+server:
+  port: 8080
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        #      TODO: this should not persist into production w/o proxy rules preventing outside world
+        include: "*"
