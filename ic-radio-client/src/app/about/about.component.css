@@ -1,5 +1,6 @@
 .about-main{
     font-family: 'Work Sans', sans-serif;
+    line-height: 1.6;
 }
 
 .about-header {
@@ -8,4 +9,16 @@
 
 .about-paragraph{
     text-align: justify;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hours {
+    border: 3px solid black;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
