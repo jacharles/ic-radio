@@ -13,7 +13,6 @@
 .copyright {
     font-size: 12px;
     display: inline-block;
-    /*float: left;*/
 }
 
 .icon {
@@ -25,7 +24,6 @@
 
 .icons {
     display: inline-block;
-    /*float: right;*/
     width: 250px;
     height: 80%;
 }
