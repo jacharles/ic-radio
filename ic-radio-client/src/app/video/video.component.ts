@@ -23,7 +23,7 @@ export class VideoComponent implements OnInit {
     if (window.scrollY > this.windowHeight){
       this.snapped = true;
     }
-    else if (window.scrollY == 0){
+    else if (window.scrollY < this.windowHeight){
       this.snapped = false;
     }
   }
