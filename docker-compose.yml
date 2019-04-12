@@ -1,13 +1,27 @@
 version: '3.7'
 
 services:
+
   ic-radio-client:
     image: ic-radio-client
     build:
       context: ./ic-radio-client
-      dockerfile: ./ic-radio-client/Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - './ic-radio-client:/usr/src/app'
       - '/usr/src/app/node_modules'
+    expose:
+      - 4200
+    restart: always
+
+  reverseproxy:
+    image: reverseproxy
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
     ports:
-      - 4200:4200
+    - 8080:8080
+    depends_on: 
+      - ic-radio-client
+    restart: always
+
