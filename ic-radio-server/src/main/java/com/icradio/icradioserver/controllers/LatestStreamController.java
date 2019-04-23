@@ -2,10 +2,8 @@ package com.icradio.icradioserver.controllers;
 
 import com.icradio.icradioserver.configs.ApiConfig;
 import com.icradio.icradioserver.models.LatestStream;
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -34,10 +34,7 @@ dependencies {
 openApiGenerate {
 	generatorName = "typescript-angular"
 	inputSpec = "$buildDir/openapi.json".toString()
-	outputDir = "$buildDir/typescript".toString()
-	apiPackage = "com.icradio.icradioserver.api"
-	invokerPackage = "com.icradio.icradioserver.invoker"
-	modelPackage = "com.icradio.icradioserver.model"
+	outputDir = "$buildDir/../../ic-radio-client/src/generated".toString()
 	skipValidateSpec = true
 	logToStderr = true
 	generateAliasAsModel = false
