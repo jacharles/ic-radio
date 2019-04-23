@@ -11,6 +11,11 @@ import { AboutComponent } from './about/about.component';
 import { VideoComponent } from './video/video.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { ApiModule } from '../generated';
+import { HttpClientModule } from '@angular/common/http';
+
+import { BASE_PATH } from '../generated';
+
 
 @NgModule({
   declarations: [
@@ -25,9 +30,11 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+      ApiModule,
+      HttpClientModule
   ],
-  providers: [],
+  providers: [{provide: BASE_PATH, useValue: 'http://localhost:8081'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
