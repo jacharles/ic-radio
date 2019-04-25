@@ -1,5 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import {APP_INITIALIZER, NgModule} from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import {AppRoutingModule} from './app-routing.module';
@@ -13,7 +13,13 @@ import {FooterComponent} from './footer/footer.component';
 
 import {ApiModule, BASE_PATH} from '../generated';
 import {HttpClientModule} from '@angular/common/http';
+import {LatestStreamService} from './services/latest-stream.service';
+import {SafePipe} from './safepipe';
 
+
+export function loadLatestStreamService(latestStreamService: LatestStreamService): Function {
+    return () => latestStreamService.load();
+}
 
 @NgModule({
     declarations: [
@@ -22,7 +28,8 @@ import {HttpClientModule} from '@angular/common/http';
         AboutComponent,
         ScheduleComponent,
         VideoComponent,
-        FooterComponent
+        FooterComponent,
+        SafePipe
     ],
     imports: [
         BrowserModule,
@@ -32,7 +39,11 @@ import {HttpClientModule} from '@angular/common/http';
         ApiModule,
         HttpClientModule
     ],
-    providers: [{provide: BASE_PATH, useValue: 'http://localhost:8081'}],
+    providers: [
+        {provide: BASE_PATH, useValue: 'http://localhost:8081'},
+        LatestStreamService,
+        {provide: APP_INITIALIZER, useFactory: loadLatestStreamService, deps: [LatestStreamService], multi: true}
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -1,5 +1,5 @@
 import {Component, HostListener, OnInit} from '@angular/core';
-import {LatestStreamControllerService} from '../../generated';
+import {LatestStreamService} from '../services/latest-stream.service';
 
 @Component({
     selector: 'app-video',
@@ -12,10 +12,9 @@ export class VideoComponent implements OnInit {
     public windowHeight: number;
     public channelId: string;
     public streamId: string;
-    public isStreamInfoAvailable = false;
-    public currentlyStreaming = false;
+    public embedUrl: string;
 
-    constructor(private readonly latestStreamControllerService: LatestStreamControllerService) {
+    constructor(private readonly latestStreamService: LatestStreamService) {
     }
 
     @HostListener('window:resize', ['$event'])
@@ -33,21 +32,10 @@ export class VideoComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.getLatestStream().then(() => {
-            this.isStreamInfoAvailable = true;
-            if (this.channelId != null && this.streamId != null){
-                this.currentlyStreaming = true;
-            }
-        });
+        this.streamId = this.latestStreamService.streamId;
+        this.channelId = this.latestStreamService.channelId;
+        this.embedUrl = `https://www.youtube.com/embed/${this.streamId}`
         this.windowHeight = window.innerHeight;
         this.snapped = false;
     }
-
-    async getLatestStream() {
-        await this.latestStreamControllerService.getLatestStreamUsingGET().toPromise().then(response => {
-            this.channelId = response.channelId;
-            this.streamId = response.streamId;
-        });
-    }
-
 }
