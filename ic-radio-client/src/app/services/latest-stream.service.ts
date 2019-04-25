@@ -11,10 +11,15 @@ export class LatestStreamService {
 
   constructor(private readonly latestStreamControllerService: LatestStreamControllerService) { }
 
-  public load() {
-    this.latestStreamControllerService.getLatestStreamUsingGET().toPromise().then(latestStream => {
-      this.channelId = latestStream.channelId;
-      this.streamId = latestStream.streamId;
-    });
+  public load(): Promise<any> {
+    const promise = new Promise(((resolve, reject) => {
+      this.latestStreamControllerService.getLatestStreamUsingGET().subscribe(latestStream => {
+        this.channelId = latestStream.channelId;
+        this.streamId = latestStream.streamId;
+        resolve();
+        return latestStream;
+      });
+    }));
+    return promise;
   }
 }

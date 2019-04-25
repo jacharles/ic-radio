@@ -24,7 +24,7 @@ public class LatestStreamController {
         // TODO: implement this if necessary
         return new LatestStream(
                 "channelID",
-                "R2UKwzrGoss"
+                "HJMw8cUGjwI"
         );
     }
 }
