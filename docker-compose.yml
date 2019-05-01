@@ -13,6 +13,15 @@ services:
     expose:
       - 4200
     restart: always
+  
+  ic-radio-server:
+    image: ic-radio-server
+    build:
+      context: ./ic-radio-server
+      dockerfile: Dockerfile
+    expose:
+      - 8081
+    restart: always
 
   reverseproxy:
     image: reverseproxy
@@ -23,5 +32,6 @@ services:
     - 8080:8080
     depends_on: 
       - ic-radio-client
+      - ic-radio-server
     restart: always
 
