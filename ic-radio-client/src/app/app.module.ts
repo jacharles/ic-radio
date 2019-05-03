@@ -40,7 +40,7 @@ export function loadLatestStreamService(latestStreamService: LatestStreamService
         HttpClientModule
     ],
     providers: [
-        {provide: BASE_PATH, useValue: 'http://localhost:8081'},
+        {provide: BASE_PATH, useValue: 'http://localhost:8080'},
         LatestStreamService,
         {provide: APP_INITIALIZER, useFactory: loadLatestStreamService, deps: [LatestStreamService], multi: true}
     ],
