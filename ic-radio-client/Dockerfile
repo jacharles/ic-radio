@@ -10,6 +10,7 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # copy project to build directory and build
 COPY ./client/package.json .
+RUN npm config set unsafe-perm true
 RUN npm install 
 RUN npm install -g @angular/cli@1.7.1
 
