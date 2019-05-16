@@ -2,86 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7d8779-520d-469f-87e1-7c7dea9fe366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ic-radio-client/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/buildlog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/about/about.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/about/about.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/about/about.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/about/about.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/footer/footer.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/footer/footer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/material.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/navigation-bar/navigation-bar.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/navigation-bar/navigation-bar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/navigation-bar/navigation-bar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/navigation-bar/navigation-bar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/safepipe.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/schedule/schedule.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/schedule/schedule.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/schedule/schedule.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/schedule/schedule.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/services/latest-stream.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/services/latest-stream.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/video/video.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/video/video.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/video/video.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/app/video/video.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/assets/icons8-facebook-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/assets/icons8-instagram-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/assets/icons8-play-button-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/assets/icons8-twitter-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/assets/nav-bar-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/assets/tab-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/.openapi-generator-ignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/.openapi-generator/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/api.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/api/api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/api/basicErrorController.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/api/latestStreamController.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/configuration.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/encoder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/git_push.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/model/latestStream.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/model/modelAndView.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/model/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/model/view.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/generated/variables.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/src/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ic-radio-client/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ic-radio-client/client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ic-radio-client/client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ic-radio-client/client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ic-radio-client/client/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/controllers/LatestStreamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/controllers/LatestStreamController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/nginx.conf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -237,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/controllers/LatestStreamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,6 +174,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -285,11 +221,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/ICRadioServerAplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/icradio/icradioserver/GenerateOpenApi.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/configs/OpenApiConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/controllers/LatestStreamController.java" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/controllers/LatestStreamController.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -316,11 +252,6 @@
             <path>
               <item name="ic-radio-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="ic-radio-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ic-radio-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ic-radio-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,6 +274,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="icradioserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ic-radio-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ic-radio-server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="icradioserver" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ic-radio-server" type="b2602c69:ProjectViewProjectNode" />
@@ -464,7 +404,7 @@
       <workItem from="1556850444476" duration="4000" />
       <workItem from="1557229425297" duration="5000" />
       <workItem from="1557278223080" duration="69000" />
-      <workItem from="1557966575185" duration="1205000" />
+      <workItem from="1557966575185" duration="2472000" />
     </task>
     <servers />
   </component>
@@ -501,12 +441,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23280000" />
+    <option name="totallyTimeSpent" value="24547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22910902" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22910902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -516,7 +457,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27969763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27969763" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +477,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.32982844" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.32982844" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -625,13 +566,6 @@
     <entry file="file://$PROJECT_DIR$/build/openapi.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/icradio/icradioserver/GenerateOpenApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -699,20 +633,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/icradio/icradioserver/controllers/LatestStreamController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="495">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>

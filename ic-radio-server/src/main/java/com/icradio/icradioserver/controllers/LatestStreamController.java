@@ -21,10 +21,9 @@ public class LatestStreamController {
     @ApiOperation(value = "Get the latest live stream")
     public LatestStream getLatestStream() {
         logger.info("retrieving latest stream info");
-        // TODO: implement this if necessary
         return new LatestStream(
-                "channelID",
-                "HJMw8cUGjwI"
+                "UC4OKXcQcvNwzW0S9aOchoiA",
+                "sw6Hihvdklw"
         );
     }
 }
