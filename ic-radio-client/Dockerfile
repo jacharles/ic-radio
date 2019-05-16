@@ -1,5 +1,5 @@
 # base image
-FROM node:10.15.2-alpine
+FROM node:10.15.2-alpine as builder
 
 # set working directory
 RUN mkdir -p /usr/src/app
@@ -9,14 +9,24 @@ WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # copy project to build directory and build
-COPY package.json .
+COPY ./client/package.json .
 RUN npm install 
 RUN npm install -g @angular/cli@1.7.1
 
 # copy the rest of the project over
-COPY . .
+COPY ./client .
 
-EXPOSE 4200
+# production build
+RUN npm run build
 
-# run the app in the container
-CMD [ "ng", "serve", "--host", "0.0.0.0", "--disableHostCheck" ]
+FROM nginx
+
+# copy app over
+COPY --from=builder /usr/src/app/dist /usr/share/nginx/html
+
+# copy nginx config over
+COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
+
+EXPOSE 8080
+
+CMD ["nginx", "-g", "daemon off;"]
