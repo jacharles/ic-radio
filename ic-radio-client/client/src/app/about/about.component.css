@@ -22,14 +22,12 @@
     padding-right: 10px;
 }
 
-.inline {
-    display: flex;
+.inline-link-block {
+    margin-bottom: 10px;
 }
 
 .inline-text {
-    display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
+    display: inline;
 }
 
 a, a:visited, a:hover, a:focus, a:active { 

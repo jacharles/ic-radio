@@ -1,8 +1,72 @@
-.content-container {
+.content-container-standard {
     width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
     font-family: "Work Sans", sans-serif;
+}
+.content-container-mobile {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.mat-bar {
+    background-color: white;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.nav-bar {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.additional-top-space {
+    margin-top: 83px;
+}
+
+.nav-image {
+    max-width:50%;
+    max-height:50%;
+    margin-right: 8px;
+}
+
+.main-nav-item {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav-item {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.icon-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a, a:visited, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color:#000;
 }

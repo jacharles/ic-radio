@@ -5,7 +5,6 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {MaterialModule} from './material.module';
-import {NavigationBarComponent} from './navigation-bar/navigation-bar.component';
 import {ScheduleComponent} from './schedule/schedule.component';
 import {AboutComponent} from './about/about.component';
 import {VideoComponent} from './video/video.component';
@@ -15,6 +14,8 @@ import {ApiModule, BASE_PATH} from '../generated';
 import {HttpClientModule} from '@angular/common/http';
 import {LatestStreamService} from './services/latest-stream.service';
 import {SafePipe} from './safepipe';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 
 export function loadLatestStreamService(latestStreamService: LatestStreamService): Function {
@@ -24,7 +25,6 @@ export function loadLatestStreamService(latestStreamService: LatestStreamService
 @NgModule({
     declarations: [
         AppComponent,
-        NavigationBarComponent,
         AboutComponent,
         ScheduleComponent,
         VideoComponent,
@@ -37,10 +37,11 @@ export function loadLatestStreamService(latestStreamService: LatestStreamService
         BrowserAnimationsModule,
         MaterialModule,
         ApiModule,
-        HttpClientModule
+        HttpClientModule,
+        FlexLayoutModule
     ],
     providers: [
-        {provide: BASE_PATH, useValue: 'http://159.203.40.82'},
+        {provide: BASE_PATH, useValue: 'https://www.invisiblecityradio.com'},
         LatestStreamService,
         {provide: APP_INITIALIZER, useFactory: loadLatestStreamService, deps: [LatestStreamService], multi: true}
     ],

@@ -24,9 +24,9 @@ export class VideoComponent implements OnInit {
 
     @HostListener('window:scroll', ['$event'])
     onscroll(event) {
-        if (window.scrollY > this.windowHeight) {
+        if (window.scrollY > this.windowHeight && window.innerWidth > 960) {
             this.snapped = true;
-        } else if (window.scrollY < this.windowHeight) {
+        } else {
             this.snapped = false;
         }
     }
@@ -34,7 +34,7 @@ export class VideoComponent implements OnInit {
     ngOnInit() {
         this.streamId = this.latestStreamService.streamId;
         this.channelId = this.latestStreamService.channelId;
-        this.embedUrl = `https://www.youtube.com/embed/${this.streamId}`
+        this.embedUrl = `https://www.youtube.com/embed/live_stream?channel=${this.channelId}`
         this.windowHeight = window.innerHeight;
         this.snapped = false;
     }
