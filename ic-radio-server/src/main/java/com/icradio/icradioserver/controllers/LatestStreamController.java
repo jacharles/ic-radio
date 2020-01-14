@@ -22,7 +22,7 @@ public class LatestStreamController {
     public LatestStream getLatestStream() {
         logger.info("retrieving latest stream info");
         return new LatestStream(
-                "UC6wgyZ21BvrHNi89B9dp31g",
+                "UC4OKXcQcvNwzW0S9aOchoiA",
                 "sw6Hihvdklw"
         );
     }
