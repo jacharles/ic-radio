@@ -1,6 +1,6 @@
 # Invisible City Radio
 
-Basic website for Invisible City which will be deploying in the summer of 2019.
+Basic website for Invisible City Radio which has been postponed for now.
 
 ## Client
 
